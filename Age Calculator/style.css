@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/61Swn7qvWwL.png");
+    background-size: cover;
+    background-position: center ;
+}
+
+section{
+    padding: 1rem;
+    text-align: center;
+    margin: 11% 0;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 38px;
+    text-align: center;
+    margin: 0rem 0 3rem 0;
+    visibility: hidden;
+}
+
+label{
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+input{
+    padding: .2rem;
+    height: 2rem;
+    font-weight: 600;
+    width: 30%;
+    text-align: center;
+}
+
+
+button{
+    position: relative;
+    margin: 1rem 0;
+    padding: .6rem;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: rgb(52, 65, 77);
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: rgba(52, 65, 77, 0.775);
+    cursor: pointer;
+}
+
+#totalAge{
+    text-align: center;
+    width: 15rem;
+    color: aliceblue;
+    background-color: green;
+    padding: .1rem;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width:1050px){
+    h1{
+        visibility: visible;
+    }
+
+   body{
+        background-image: none;
+    }
+
+    section{
+         background-color: rgba(52, 65, 77, 0.775); 
+    }
+}
